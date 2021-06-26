@@ -1,0 +1,91 @@
+
+body {
+    background-color: cornsilk;
+}
+
+h5 {
+    padding: 1% 3%;
+    color: grey;
+}
+
+hr {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Navigation bar */
+
+
+#navbar {
+    background-color: indigo;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+    padding-left: 25px;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1rem;
+    font-family: "Montserrat-light";
+}
+
+
+/* College Categories */
+
+
+.btn {
+    display: block;
+    margin: 108.5px auto;
+}
+
+.img {
+    width: 300px;
+    position: relative;
+}
+
+.des {
+    position: absolute;
+    z-index: -1;
+    margin-top: 90px;
+    margin-left: 60px;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+}
+
+.img:hover {
+    opacity: 0.25;
+}
+
+.img:hover.des {
+    z-index: 1;
+}
+
+
+/* Footer */
+
+
+#footer {
+    background-color: indigo;
+    text-align: center;
+    color: white;
+    padding: 25px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.ft {
+    padding: 0;
+    margin: 0;
+    color: #dfeeea;
+    font-size: 0.8rem;
+}
